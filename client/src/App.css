@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.cover {
+  position: relative;
+  background: url("./assets/bg.jpeg") no-repeat center center/cover;
+  height: 100vh;
+}
+.landingForm
+{
+  width: 30%;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+}
+
+
