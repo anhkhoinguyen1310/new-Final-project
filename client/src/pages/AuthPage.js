@@ -7,7 +7,7 @@ import "../App.css";
 
 
 
-/// fad
+
 
 function AuthPage() {
 
@@ -16,12 +16,11 @@ function AuthPage() {
   const [password, setPassword] = useState('')
   const dispatch = useDispatch()
 
-  const onSignUp = (e) => {gi
+  const onSignUp = (e) => {
     e.preventDefault()
     dispatch(authActions.register(email, password))
 
   }
-  /// adding comments to push 
 
   if (user.loading) return <h1>Registering.....</h1>;
   if (user.redirectToHomePage) return <Redirect to="/" />;
